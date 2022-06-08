@@ -1,0 +1,93 @@
+/*
+  Color de fondo: hsl(185, 75%, 39%)
+  Color del texto gris: hsl(227, 10%, 46%)
+ */
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body{
+  background-color: hsl(185, 75%, 39%);
+  position: relative;
+  overflow: hidden;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.imagen__arriba{
+  position: absolute;
+  top: -500px;
+  right: 50vw;
+
+}
+
+.imagen__abajo{
+  position: absolute;
+  top: 50vh;
+  left: 40vw;
+}
+
+.card{
+  position: absolute;
+  top: calc(50vh - 150px);
+  left: calc(50vw - 150px);
+  width: 300px;
+  height: 300px;
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.281);
+}
+
+.pattern{
+  width: 300px;
+}
+
+.conteiner__profile{
+  position: relative;
+  border-radius: 50%;
+  width: 74px;
+  height: 74px;
+  overflow: hidden;
+  margin: auto;
+  margin-top: -40px;
+  border: 2px solid #fff;
+}
+
+.profile{
+  width: 74px;
+  height: 74px;
+}
+
+
+.text{
+  font-size: 90%;
+  font-weight: 500;
+  text-align: center;
+}
+
+.text_light{
+  color: hsl(227, 10%, 46%);
+}
+
+.number{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.footer{
+  margin-top: 35px;
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+}
+
+.estadisticas{
+  width: 70px;
+  display: inline-block;
+  margin: 0 13px;
+}
+

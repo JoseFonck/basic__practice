@@ -1,0 +1,46 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box; 
+}
+
+body{
+    background-color: #fff;
+}    
+
+.main{
+    background-color: aquamarine;
+    
+}
+
+.container{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px; 
+    background-color: bisque;
+    height: 400px;
+    width: 600px;
+    text-align: center;
+    
+}
+.container__img{
+    position: relative;
+    background-color: red;
+    margin-top: 0;
+    width: 250px;
+    height: 400px;
+    display: inline-block;
+    /* text-align: center; */
+}
+
+.container__form{
+    background-color: steelblue;
+    width: 250px;
+    height: 400px;
+    display: inline-block;
+    /* text-align: center; */
+}
+
+
+
